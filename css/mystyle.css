@@ -1,0 +1,43 @@
+.bg-color1 {
+    --bs-bg-opacity: 1;
+    background-color: #f18124;
+}
+
+.bg-color2 {
+    --bs-bg-opacity: 1;
+    background-color: #df6e2d;
+}
+
+.bg-black {
+    --bs-bg-opacity: 1;
+    background-color: #363636;
+}
+
+.article-title{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.article-text{
+    font-size: 15px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+
+.article-container{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-block: 10px;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
