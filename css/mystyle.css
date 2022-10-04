@@ -8,6 +8,11 @@
     background-color: #df6e2d;
 }
 
+.bg-color3 {
+    --bs-bg-opacity: 1;
+    background-color: #f180249f;
+}
+
 .bg-black {
     --bs-bg-opacity: 1;
     background-color: #363636;
@@ -46,6 +51,31 @@
     height: 200px;
     margin: 4px;
     object-fit: cover;
+}
+
+.card-me {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+  }
+
+.background-black{
+    background-image: url("../images/background-black.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 300px;
+}
+
+.background-white{
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 300px;
 }
 
 /* Galeria */
