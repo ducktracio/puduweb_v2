@@ -10,7 +10,7 @@
 
 .bg-color3 {
     --bs-bg-opacity: 1;
-    background-color: #f180249f;
+    background-color: rgba(0, 0, 0, 0.473);
 }
 
 .bg-black {
@@ -46,6 +46,14 @@
     max-width: 100%;
     width: 100%;
     height: 200px;
+    margin: 8px;
+    object-fit: cover;
+}
+
+.img-thumbnail-logo-me {
+    border-radius: 0.25rem;
+    max-width: 100%;
+    width: 100%;
     margin: 8px;
     object-fit: cover;
 }
@@ -87,6 +95,13 @@
 
 .background-habitat{
     background-image: url("../images/habitat-bw.jpg");
+    background-attachment: fixed;
+    /* background-repeat: repeat; */
+    background-size: cover;
+}
+
+.background-habitat-color{
+    background-image: url("../images/habitat.jpg");
     background-attachment: fixed;
     /* background-repeat: repeat; */
     background-size: cover;
