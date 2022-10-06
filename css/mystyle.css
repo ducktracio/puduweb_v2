@@ -96,14 +96,12 @@
 .background-habitat{
     background-image: url("../images/habitat-bw.jpg");
     background-attachment: fixed;
-    /* background-repeat: repeat; */
     background-size: cover;
 }
 
 .background-habitat-color{
     background-image: url("../images/habitat.jpg");
     background-attachment: fixed;
-    /* background-repeat: repeat; */
     background-size: cover;
 }
 
