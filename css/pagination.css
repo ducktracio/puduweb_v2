@@ -17,7 +17,7 @@
   /* GENERAL STYLES */
   
   .pagination{
-    padding: 30px 0;
+    padding: 1.875rem 0;
   }
   
   .pagination ul{
@@ -28,7 +28,7 @@
   
   .pagination a{
     display: inline-block;
-    padding: 10px 18px;
+    padding: .625rem 1.125rem;
     color: #222;
   }
   
@@ -36,9 +36,9 @@
   
   .p1 a{
     text-decoration: none;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
     padding: 0;
     text-align: center;
   }
@@ -53,5 +53,5 @@
   
   .p2 .is-active li{
     font-weight: bold;
-    border-bottom: 3px solid #f18124;
+    border-bottom: .1875rem solid #f18124;
   }
